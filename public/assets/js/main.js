@@ -70,11 +70,35 @@ function scrollFunction(){
 
 }
 
+function isAndroid(){
+	return /Android/i.test(navigator.userAgent);
+}
+
+function isApple(){
+	return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
+function displayAndroid(){
+	// console.log(true);
+	// waiting on josh
+}
+
+function displayAndySteve(){
+	// console.log(false);
+	// will display both interchangeably
+}
+
 
 // -----------------------------------------------------	DOCUMENT READY		-----------------------------------------------------
 
 $(document).ready(function(){
 	logoSize();
+
+	if(isAndroid()){
+		displayAndroid();
+	}else if((isAndroid() || isApple()) === false){
+		displayAndySteve();
+	}
 
 	$('.spacer-30').css('opacity', '1');
 

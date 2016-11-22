@@ -241,12 +241,12 @@ body{
 	position: absolute;
 }
 
-a{
+.link{
 	text-decoration: none;
 	color: inherit;
 	outline: none;
 }
-a:visited{
+.link:visited{
 	color: inherit;
 	text-decoration: none;
 	outline: none;
