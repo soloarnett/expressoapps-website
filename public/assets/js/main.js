@@ -78,14 +78,41 @@ function isApple(){
 	return /iPhone|iPad|iPod/i.test(navigator.userAgent);
 }
 
+
+function declareImages(){
+	var image1 = 'img.image.image1';
+	var image2 = 'img.image.image2';
+	var image3 = 'img.image.image3';
+	var image4 = 'img.image.image4';
+}
+
+
 function displayAndroid(){
 	// console.log(true);
 	// waiting on josh
+	// declareImages();
+	var image1 = 'img.image.image1';
+	var image2 = 'img.image.image2';
+	var image3 = 'img.image.image3';
+	var image4 = 'img.image.image4';
+	$(image1).attr('src', 'assets/img/android/image1-500.png');
+	// $(image2).attr('src', '../img/android/image2-500.png');
+	$(image3).attr('src', 'assets/img/android/image3-500.png');
+	// $(image4).attr('src', '../img/android/image4-500.png');
+
 }
 
 function displayAndySteve(){
 	// console.log(false);
 	// will display both interchangeably
+	// declareImages();
+	var image1 = 'img.image.image1';
+	var image2 = 'img.image.image2';
+	var image3 = 'img.image.image3';
+	var image4 = 'img.image.image4';
+	$(image1).attr('src', 'assets/img/android/image1-500.png');
+	$(image3).attr('src', 'assets/img/android/image3-500.png');
+
 }
 
 
