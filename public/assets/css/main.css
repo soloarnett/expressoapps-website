@@ -279,3 +279,15 @@ body{
 	    transition: height 999999999999s ease-in !important;
 	}
 }
+
+@media(min-width: 800px){
+	.spacer-60, .main-logo-container-content, .main-logo-container{
+		min-height: 411px;
+	}
+	.spacer-100, .image-container, .image-container-content{
+		min-height: 375px;
+	}
+	img.image{
+		min-height: 300px;
+	}
+}

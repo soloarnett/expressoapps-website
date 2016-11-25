@@ -16,7 +16,17 @@ function resizeFunction(){
 	// image3Pos = $('#image3-container').offset().top;
 	// image4Pos = $('#image4-container').offset().top;
 	logoSize();
-	// console.log("hello");
+	// if((isAndroid() || isApple()) === false){
+	// 	if (windowWidth <= 800) {
+	// 		$('*').css('-moz-transition','none');
+	// 		$('*').css('-o-transition','none');
+	// 		$('*').css('-webkit-transition','none');
+	// 		$('*').css('transition','none');
+	// 	}
+	// }
+
+	// not yet working as intended ^^
+	
 }
 
 function logoSize(){
