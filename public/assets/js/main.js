@@ -26,7 +26,7 @@ function resizeFunction(){
 	// }
 
 	// not yet working as intended ^^
-	
+
 }
 
 function logoSize(){
@@ -106,9 +106,9 @@ function displayAndroid(){
 	var image3 = 'img.image.image3';
 	var image4 = 'img.image.image4';
 	$(image1).attr('src', 'assets/img/android/image1-500.png');
-	// $(image2).attr('src', '../img/android/image2-500.png');
+	$(image2).attr('src', 'assets/img/android/image2-500.png');
 	$(image3).attr('src', 'assets/img/android/image3-500.png');
-	// $(image4).attr('src', '../img/android/image4-500.png');
+	$(image4).attr('src', 'assets/img/android/image4-500.png');
 
 }
 
@@ -120,9 +120,22 @@ function displayAndySteve(){
 	var image2 = 'img.image.image2';
 	var image3 = 'img.image.image3';
 	var image4 = 'img.image.image4';
-	$(image1).attr('src', 'assets/img/android/image1-500.png');
+	$(image1).attr('src', 'assets/img/image1-500.png');
+	$(image2).attr('src', 'assets/img/android/image2-500.png');
 	$(image3).attr('src', 'assets/img/android/image3-500.png');
+	$(image4).attr('src', 'assets/img/image4-500.png');
 
+}
+
+function displaySteve(){
+	var image1 = 'img.image.image1';
+	var image2 = 'img.image.image2';
+	var image3 = 'img.image.image3';
+	var image4 = 'img.image.image4';
+	$(image1).attr('src', 'assets/img/image1-500.png');
+	$(image2).attr('src', 'assets/img/image2-500.png');
+	$(image3).attr('src', 'assets/img/image3-500.png');
+	$(image4).attr('src', 'assets/img/image4-500.png');
 }
 
 
@@ -135,6 +148,8 @@ $(document).ready(function(){
 		displayAndroid();
 	}else if((isAndroid() || isApple()) === false){
 		displayAndySteve();
+	}else{
+		displaySteve();
 	}
 
 	$('.spacer-30').css('opacity', '1');
