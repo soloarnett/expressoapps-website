@@ -34,11 +34,11 @@ function logoSize(){
 	if (logoWidth > 500) {
 		$('.main-logo').attr('src', 'assets/img/logo-800.png');
 	}else if(logoWidth > 400){
-		$('.main-logo').attr('src', 'assets/img/logo-500.png');
+		$('.main-logo').attr('src', 'assets/img/logo-800.png');
 	}else if(logoWidth > 250){
-		$('.main-logo').attr('src', 'assets/img/logo-350.png');
+		$('.main-logo').attr('src', 'assets/img/logo-500.png');
 	}else{
-		$('.main-logo').attr('src', 'assets/img/logo-250.png');
+		$('.main-logo').attr('src', 'assets/img/logo-500.png');
 	}
 }
 
