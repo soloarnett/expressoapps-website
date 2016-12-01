@@ -284,6 +284,11 @@ body{
 	transform: translate(-50%, -50%);
 }
 
+@media(max-width: 600px){
+	.main-logo-content h1{
+		bottom: -14vh;
+	}
+}
 
 @media(max-width: 800px){
 	*{
