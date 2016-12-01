@@ -16,6 +16,7 @@ function resizeFunction(){
 	// image3Pos = $('#image3-container').offset().top;
 	// image4Pos = $('#image4-container').offset().top;
 	logoSize();
+	scrollFunction();
 	// if((isAndroid() || isApple()) === false){
 	// 	if (windowWidth <= 800) {
 	// 		$('*').css('-moz-transition','none');

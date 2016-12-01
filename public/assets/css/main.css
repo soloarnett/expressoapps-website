@@ -7,8 +7,8 @@
 html{
 	width: 100vw;
 	/*max-width: 700px;*/
-	height: 100vh;
-	overflow: auto;
+	height: auto;
+	overflow: hidden;
 	margin-left: 50%;
 	transform: translateX(-50%);
 	/*position: absolute;*/
@@ -18,9 +18,9 @@ html{
 
 body{
 	width: 100vw;
-	/*max-width: 700px;*/
+	min-width: 275px;
 	margin: 0;
-	background-color: #eeeeee;
+	background-color: #6a50ee;
 	height: 100vh;
 	overflow: auto;
 	/*position: absolute;*/
@@ -56,14 +56,16 @@ body{
 	float: left;
 	width: 100%;
 	height: auto;
-	background-color: #6a50ee;
+	/*background-color: #6a50ee;*/
 	/*z-index: 999;*/
 }
 
 .main-logo-container{
-	position: relative;
-	float: left;
+	top: 0;
+	left: 0;
+	position: fixed;
 	overflow: hidden;
+	/*background-color: #6a50ee;*/
 	height: 60vh;
 	width: 100%;
 }
@@ -104,8 +106,8 @@ body{
 
 .main-logo-content{
 	width: 100%;
-	position: absolute;
-	top: 50%;
+	position: fixed;
+	top: 30%;
 	transform: translateY(-50%);
 	padding-bottom: 20px;
 	/*margin-top: */
