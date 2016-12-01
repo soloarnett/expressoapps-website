@@ -108,7 +108,7 @@ body{
 .main-logo-content{
 	width: 100%;
 	position: fixed;
-	top: 30%;
+	top: 25%;
 	padding-top: 20px;
 	transform: translateY(-50%);
 	padding-bottom: 20px;
@@ -131,10 +131,11 @@ body{
 	color: #ffffff;
 	font-size: 3em;
 	font-weight: 300;
-	position: relative;
-	float: left;
-	clear: both;
-	margin-bottom: 0;
+	position: absolute;
+	/*float: left;*/
+	/*clear: both;*/
+	/*margin-bottom: 10px;*/
+	bottom: -7vh;
 	margin-left: 50%;
 	transform: translateX(-50%);
 }
