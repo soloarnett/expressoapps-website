@@ -55,7 +55,7 @@ body{
 .main-container{
 	position: relative;
 	float: left;
-	width: 100%;
+	width: 100vw;
 	height: auto;
 	/*background-color: #6a50ee;*/
 	/*z-index: 999;*/
@@ -84,14 +84,14 @@ body{
 .spacer-60{
 	position: relative;
 	float: left;
-	width: 100%;
+	width: 100vw;
 	height: 60vh;
 }
 
 .spacer-100{
 	position: relative;
 	float: left;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 }
 
@@ -143,7 +143,7 @@ body{
 .image-container{
 	/*margin-top: 60vh;*/
 	background-color: #ffffff;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	position: relative;
 	float: left;
@@ -208,7 +208,7 @@ body{
 	/*background-color: #6a50ee;*/
 	position: relative;
 	float: left;
-	width: 100%;
+	width: 100vw;
 	height: 30vh;
 	z-index: 2;
 	/*color: #ffffff;*/
@@ -221,7 +221,7 @@ body{
 .download-container{
 	/*margin-top: 60vh;*/
 	/*background-color: #6a50ee;*/
-	width: 100%;
+	width: 100vw;
 	height: 20vh;
 	position: relative;
 	float: left;
